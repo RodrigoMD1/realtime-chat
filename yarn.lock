@@ -2176,6 +2176,7 @@ __metadata:
     eslint: "npm:~8.57.0"
     nx: "npm:19.1.0"
     prettier: "npm:^2.6.2"
+    typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
 
@@ -6407,7 +6408,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.4.2":
+"typescript@npm:^5.4.5, typescript@npm:~5.4.2":
   version: 5.4.5
   resolution: "typescript@npm:5.4.5"
   bin:
@@ -6417,7 +6418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~5.4.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.4.5#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A~5.4.2#optional!builtin<compat/typescript>":
   version: 5.4.5
   resolution: "typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"
   bin:
