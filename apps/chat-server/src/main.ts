@@ -14,6 +14,11 @@ app.get('/api', (req, res) => {
   res.send({ message: 'Welcome to chat-server!' });
 });
 
+app.get('/chat/:id', (req, res) => {
+  const secret = '1234';
+  res.send({ secret });
+});
+
 const port = process.env.PORT || 3333;
 const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
