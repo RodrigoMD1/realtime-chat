@@ -5,15 +5,15 @@
 			"path": ".."
 		},
     {
-      "name": "chat-express",
+      "name": "🚀 chat-express",
       "path": "../apps/chat-server"
     },
     {
-      "name": "chat-react",
+      "name": "🚀 chat-react",
       "path": "../apps/chat-react/chat-react"
     },
     {
-      "name": "chat-client",
+      "name": "📦 chat-client",
       "path": "../packages/client-front"
     }
   ],
