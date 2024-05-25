@@ -1,31 +1,28 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "module": "ESNext",
-        "target": "ES5",
-        "lib": [
-            "ES2020",
-            "DOM"
-        ],
-        "jsx": "preserve",
-        "moduleResolution": "Node",
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "noEmit": true,
-        "resolveJsonModule": true,
-        "skipDefaultLibCheck": true,
-        "skipLibCheck": true,
-        "allowSyntheticDefaultImports": true,
-        "noErrorTruncation": false,
-        "noUnusedLocals": true,
-        "importHelpers": true,
-        "noUncheckedIndexedAccess": true,
-        "rootDir": ".",
-        "baseUrl": ".",
-    },
-    "exclude": [
-        "node_modules",
-        ".nx",
-        "dist"
-    ]
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES5",
+    "lib": ["ES2020", "DOM"],
+    "jsx": "preserve",
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": false,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "noUncheckedIndexedAccess": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@chat/client": ["packages/client-front/src/index.ts"]
+    }
+  },
+  "include": ["packages/*", "apps/*"],
+  "exclude": ["node_modules", ".nx", "dist"]
 }

@@ -26,6 +26,7 @@ export default defineConfig({
 
   build: {
     outDir: '../../../dist/apps/chat-react/chat-react',
+    
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {

@@ -1,0 +1,9 @@
+{
+  "name": "client-front",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/client-front/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project client-front --web",
+  "targets": {}
+}
