@@ -5,7 +5,7 @@ export function ClientFront(props: ClientFrontProps) {
     <div>
       <h1>web socket </h1>
 
-      <input>json web token</input>
+      <input id="input" name="asdasd"  className="bg-red-500"/>
       <button id="btn-connect">Connect</button>
 
       <span id="server-status">Offline</span>

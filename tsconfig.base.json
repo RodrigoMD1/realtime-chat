@@ -8,7 +8,6 @@
     "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noEmit": true,
     "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
@@ -24,5 +23,5 @@
     }
   },
   "include": ["packages/*", "apps/*"],
-  "exclude": ["node_modules", ".nx", "dist"]
+  "exclude": ["node_modules", ".nx"]
 }

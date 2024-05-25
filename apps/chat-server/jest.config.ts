@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default {
   displayName: 'chat-server',
   preset: '../../jest.preset.js',
